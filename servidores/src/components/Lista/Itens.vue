@@ -32,7 +32,7 @@ const servidoresFiltrados = computed(() => {
 @use '../../utils/index.scss' as *;
 
 ul {
-    width: 100%;
+
     list-style: none;
     padding: 0;
     gap: 2rem;

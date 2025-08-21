@@ -23,10 +23,11 @@ export default {
 @use '../../utils/index.scss' as *;
 
 li {
-  width: calc(25% - 5.70rem);
+  width: calc(25% - 4.65rem);
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -42,11 +43,11 @@ li {
   }
 
   @include medio {
-    width: calc(50% - 6rem);
+    width: calc(50% - 4.25rem);
   }
 
   @include pequeno {
-    width: calc(100% - 7rem);
+    width: calc(100% - 3rem);
   }
 }
 
