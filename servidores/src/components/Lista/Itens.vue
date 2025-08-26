@@ -23,8 +23,14 @@ const props = defineProps({
 })
 
 const servidoresFiltrados = computed(() => {
+  const normalizar = (texto) =>
+    texto
+      .normalize("NFD") // separa acentos
+      .replace(/[\u0300-\u036f]/g, "") // remove acentos
+      .toLowerCase()
+
   return store.state.servidores.filter(s =>
-    !props.filtro || s.nome.toLowerCase().includes(props.filtro.toLowerCase())
+    !props.filtro || normalizar(s.nome).includes(normalizar(props.filtro))
   )
 })
 </script>

@@ -6,7 +6,7 @@
         <div class="servidor-info">
             <h2>{{ servidor.nome }}</h2>
             <p><strong>Cargo:</strong> {{ servidor.cargo }}</p>
-            <p><strong>Email:</strong> {{ servidor.email }}</p>
+            <!-- <p><strong>Email:</strong> {{ servidor.email }}</p> -->
             <!-- Adicione mais informações conforme necessário -->
         </div>
     </div>
@@ -33,7 +33,7 @@ export default {
 .servidor-details {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
   background-color: #fff;
@@ -50,10 +50,9 @@ export default {
 
 .servidor-photo {
   img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 225px;
+    height: 300px;
+
     border: 2px solid #eee;
   }
 }
@@ -63,6 +62,7 @@ export default {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     @include Roboto-500;
+    margin-top: 2rem;
   }
 
   p {

@@ -1,9 +1,6 @@
 <template>
     <li @click="$router.push({ name: 'servidor', query: { id: servidor.id } })" >
         <img :src="servidor.img" :alt="`Imagem de ${servidor.nome}`" />
-        <p>{{ servidor.nome }}</p>
-        <p>{{ servidor.cargo }}</p>
-        <p>{{ servidor.email }}</p>
     </li>
 </template>
 
@@ -52,17 +49,7 @@ li {
 }
 
 img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1.25rem;
-  border: 3px solid #eee;
-  transition: border-color 0.2s ease;
-
-  li:hover & {
-    border-color: #42b883; // cor destaque no hover
-  }
+  width: 300px;
 }
 
 p {
