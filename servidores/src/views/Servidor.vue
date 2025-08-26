@@ -8,6 +8,7 @@
             <p><strong>Cargo:</strong> {{ servidor.cargo }}</p>
             <!-- <p><strong>Email:</strong> {{ servidor.email }}</p> -->
             <!-- Adicione mais informações conforme necessário -->
+             <h1 @click="$router.push('/')">Retornar</h1>
         </div>
     </div>
 </template>
@@ -56,7 +57,11 @@ export default {
     border: 2px solid #eee;
   }
 }
-
+h1{
+  cursor: pointer;
+  color: $Principal;
+  @include Roboto-500;
+}
 .servidor-info {
   h2 {
     font-size: 1.8rem;
