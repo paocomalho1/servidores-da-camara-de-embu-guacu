@@ -63,7 +63,9 @@ export default createStore({
   { id: 56, nome: 'CAUÊ AMÂNCIO', cargo: 'Estagiário', img: 'cMeG_page-0056.jpg' },
   { id: 57, nome: 'MATEUS CAMARGO', cargo: 'Estagiário', img: 'cMeG_page-0057.jpg' },
   { id: 58, nome: 'EDUARDO WEISHAUPT', cargo: 'Estagiário', img: 'cMeG_page-0058.jpg' },
-  { id: 59, nome: 'BEATRIZ MACEDO', cargo: 'Estagiário', img: 'cMeG_page-0059.jpg' }
+  { id: 59, nome: 'BEATRIZ MACEDO', cargo: 'Estagiário', img: 'cMeG_page-0059.jpg' },
+  { id: 60, nome: 'WAGNER SANCHES', cargo: 'Chefe de Gabinete do Vereador', img: 'cMeG_page-0060.jpg' },
+  { id: 61, nome: 'BRUNA CHIEROTTO', cargo: 'Assessor de Rel. Comun. e de Articulações Políticas', img: 'cMeG_page-0061.jpg' },
 ]
 
   },
