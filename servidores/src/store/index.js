@@ -22,7 +22,7 @@ export default createStore({
   { id: 15, nome: 'GIOVANNA CECILIA', cargo: 'Fiscal de Contrato', img: 'cMeG_page-0015.jpg' },
   { id: 16, nome: 'JESSICA VIEIRA', cargo: 'Agente de Contratação', img: 'cMeG_page-0016.jpg' },
   { id: 17, nome: 'DINA ARAUJO DE MELO', cargo: 'Secretário Administrativo', img: 'cMeG_page-0017.jpg' },
-  { id: 18, nome: 'CAMILA ROBERTA', cargo: 'Agente de Serviços Técnicos Legislativo', img: 'cMeG_page-0018.jpg' },
+//  { id: 18, nome: 'CAMILA ROBERTA', cargo: 'Agente de Serviços Técnicos Legislativo', img: 'cMeG_page-0018.jpg' },
   { id: 19, nome: 'ELAINE DE SOUZA', cargo: 'Agente de Serviços Parlamentar', img: 'cMeG_page-0019.jpg' },
   { id: 20, nome: 'LUZIA DE ALBUQUERQUE', cargo: 'Agente de Serviços Parlamentar', img: 'cMeG_page-0020.jpg' },
   { id: 21, nome: 'LUCAS BERTAN', cargo: 'Procurador Jurídico do Legislativo', img: 'cMeG_page-0021.jpg' },
