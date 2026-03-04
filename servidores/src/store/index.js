@@ -66,6 +66,12 @@ export default createStore({
   { id: 59, nome: 'BEATRIZ MACEDO', cargo: 'Estagiário', img: 'cMeG_page-0059.jpg' },
   { id: 60, nome: 'WAGNER SANCHES', cargo: 'Chefe de Gabinete do Vereador', img: 'cMeG_page-0060.jpg' },
   { id: 61, nome: 'BRUNA CHIEROTTO', cargo: 'Assessor de Rel. Comun. e de Articulações Políticas', img: 'cMeG_page-0061.jpg' },
+       { id: 62, nome: 'VINICIUS VILLA', cargo: 'Estagiário', img: 'Crachá Vinicius_pages-to-jpg-0001.jpg' },
+       { id: 63, nome: 'LEONARDO BATISTA', cargo: 'Assessor de Rel. Comun. e de Articulações Políticas', img: 'Crachá Leonardo_page-0001.jpg' },
+       { id: 64, nome: 'BEATRIZ MARINHEIRO', cargo: 'Estagiário', img: 'Crachá Beatriz_page-0001.jpg' },
+       { id: 65, nome: 'PAULA FERNANDES', cargo: 'Assessor de Rel. Comun. e de Articulações Políticas', img: 'Crachá Paula_page-0001.jpg' },
+       { id: 66, nome: 'FELIPE QUINONEZ', cargo: 'Chefe de Gabinete do Vereador', img: 'Crachá Felipe_page-0001.jpg' },
+       { id: 67, nome: 'YASMIN MELO', cargo: 'Estagiário', img: 'Crachá Yasmin_page-0001.jpg' },
 ]
 
   },
